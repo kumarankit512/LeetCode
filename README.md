@@ -6,7 +6,7 @@ List of question I have completed! - [Leetcode](https://leetcode.com/problemset/
 ## Array
 |  |
 | ------- |
-| [0001-two-sum](https://github.com/arnavdeepaware/leetcode/tree/master/0001-two-sum) |
+| [0001-two-sum](https://leetcode.com/problems/two-sum/) |
 ## String
 |  |
 | ------- |
