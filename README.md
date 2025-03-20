@@ -11,6 +11,7 @@ List of question I have completed! - [Leetcode](https://leetcode.com/problemset/
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+| [0005-longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring/description/) |
 ## Linked List
 |  |
 | ------- |
