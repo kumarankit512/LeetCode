@@ -11,4 +11,4 @@ class Solution:
         return max_len
     
 #Time Complexity: O(n^2)
-#Space Complextity: O(min(n, m)) where n is the length of the string and m is the size of the charset.
+#Space Complextity: O(min(n, m)) where n is the length of the string and m is the size of the charset
