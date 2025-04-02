@@ -1,0 +1,19 @@
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0:
+            return False
+        div = 1
+        while x >= 10 * div:
+                div *= 10
+        
+        while x:
+            if x // div != x % 10:
+                return False
+            x = (x % div)// 10
+            div = div/100
+        return True
+
+#Time Complexity: O(log10(n))
+#The time complexity is O(log10(n)) because we are dividing the number by 10 in each iteration of the while loop.
+
+#Space Complexity: O(1)
