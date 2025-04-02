@@ -18,5 +18,5 @@ class Solution:
                 return [mp[complement], i]
             mp[n] = i
 
-# Time Complexity: O(n) -> Hash Map
-# Space Complexity: O(n)
+#Time Complexity: O(n) -> Hash Map
+#Space Complexity: O(n)
