@@ -16,5 +16,5 @@ class Solution:
             self.isPalindrome(s, i, i + 1, pali)
         return s[pali[0]: pali[0] + pali[1]]
 
-# Time Complexity: O(n^2)
-# Space Complexity: O(1)	
+#Time Complexity: O(n^2)
+#Space Complexity: O(1)	
