@@ -9,4 +9,4 @@ class Solution:
     
 # Time Complexity: O(n * k log k)
 # Space Complexity: O(n * k)
-# where n is the number of strings in the input list and k is the maximum length of a string.
+# where n is the number of strings in the input list and k is the maximum length of a string
