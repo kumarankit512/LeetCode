@@ -9,6 +9,7 @@ List of question I have completed! - [Leetcode](https://leetcode.com/problemset/
 | [0009-palindrome-number](https://leetcode.com/problems/palindrome-number/description/) | <br>
 | [0013-roman-to-integer](https://leetcode.com/problems/roman-to-integer/) | <br>
 | [0014-longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/) | <br>
+| [0020-valid-parentheses](https://leetcode.com/problems/valid-parentheses/) | <br>
 | [0021-merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/) | <br>
 | [0242-valid-anagram](https://leetcode.com/problems/valid-anagram/description/) | <br>
 
