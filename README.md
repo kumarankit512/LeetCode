@@ -4,7 +4,7 @@ List of question I have completed! - [Leetcode](https://leetcode.com/problemset/
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 
-## Easy [Completed: 6]
+## Easy [Completed: 7]
 | [0001-two-sum](https://leetcode.com/problems/two-sum/) | <br>
 | [0009-palindrome-number](https://leetcode.com/problems/palindrome-number/description/) | <br>
 | [0013-roman-to-integer](https://leetcode.com/problems/roman-to-integer/) | <br>
@@ -25,8 +25,9 @@ List of question I have completed! - [Leetcode](https://leetcode.com/problemset/
 | [2685-Count the-Number-of-Complete-Components](https://leetcode.com/problems/count-the-number-of-complete-components/description/) | <br>
 | [3403-Find-the-Lexicographically-Largest-String-From-the-Box-I](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i/) | <br>
 
-## Hard [Completed: 2]
+## Hard [Completed: 3]
 | [0023-merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | <br>
 | [0025-reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | <br>
+| [0051-N-Queens](https://leetcode.com/problems/n-queens/description/) | <br>
 
 <!---LeetCode Topics End-->
