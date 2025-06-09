@@ -4,7 +4,7 @@ List of question I have completed! - [Leetcode](https://leetcode.com/problemset/
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 
-## Easy [Completed: 7]
+## Easy [Completed: 8]
 | [0001-two-sum](https://leetcode.com/problems/two-sum/) | <br>
 | [0009-palindrome-number](https://leetcode.com/problems/palindrome-number/description/) | <br>
 | [0013-roman-to-integer](https://leetcode.com/problems/roman-to-integer/) | <br>
@@ -12,8 +12,9 @@ List of question I have completed! - [Leetcode](https://leetcode.com/problemset/
 | [0020-valid-parentheses](https://leetcode.com/problems/valid-parentheses/) | <br>
 | [0021-merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/) | <br>
 | [0242-valid-anagram](https://leetcode.com/problems/valid-anagram/description/) | <br>
+| [0121-Best-Time-to-Buy-and-Sell-Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | <br>
 
-## Medium [Completed: 9]
+## Medium [Completed: 10]
 | [0002-add-two-numbers](https://leetcode.com/problems/add-two-numbers/description/) | <br>
 | [0003-longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | <br>
 | [0005-longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | <br>
