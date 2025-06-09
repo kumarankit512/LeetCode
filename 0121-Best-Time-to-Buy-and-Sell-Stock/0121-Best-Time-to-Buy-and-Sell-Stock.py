@@ -10,4 +10,19 @@ class Solution:
 
         #Time Complexity: O(n^2) but TLE - Brute Force
         #Space Complexity: O(1)
+
+        l = 0 
+        r = 1
+        maxProfit = 0
+        while r < len(prices):
+            if prices[l] < prices[r]:
+                profit = prices[r] - prices[l]
+                maxProfit = max(maxProfit, profit)
+            else:
+                l = r
+            r += 1
+        return maxProfit
+
+        #Time Complexity: O(n)
+        #Space Complexity: O(1)
         
