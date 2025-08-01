@@ -1,8 +1,8 @@
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
 
-        if numRows < 1:
-            return []
+        # if numRows < 1:
+        #     return []
 
         res = []
         for i in range(numRows):
