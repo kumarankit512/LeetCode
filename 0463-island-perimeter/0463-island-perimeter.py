@@ -15,4 +15,5 @@ class Solution:
         return perimeter
 
 #Brute Force Approach:
-#Time Complexity: O(n^2)
+#Time Complexity: O(rows x cols)
+#Space Complexity: O(1)
