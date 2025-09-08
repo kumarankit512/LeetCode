@@ -20,8 +20,7 @@ class Solution:
 
             if trusting and trusted_upon == n - 1:
                 return judge
-
         return -1
 
-#Time Complexity:
-#Space Complexity:
+#Time Complexity: O(n * m)
+#Space Complexity: O(1)
