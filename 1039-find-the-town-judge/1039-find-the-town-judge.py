@@ -22,5 +22,6 @@ class Solution:
                 return judge
         return -1
 
+#Brute Force Soluion:
 #Time Complexity: O(n * m)
 #Space Complexity: O(1)
