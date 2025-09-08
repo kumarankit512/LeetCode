@@ -17,7 +17,8 @@ class Solution:
                     trusting = False
                 if b == judge:
                     trusted_upon += 1
-
+                    
+            # If this person trusts no one, and all the other people trust them, then they are the judge.
             if trusting and trusted_upon == n - 1:
                 return judge
         return -1
