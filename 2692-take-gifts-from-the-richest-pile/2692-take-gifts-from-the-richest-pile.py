@@ -30,3 +30,6 @@ class Solution:
             heappush(nums, -temp)
             k -= 1
         return -sum(nums)
+
+#Time Complexity: O(n + k log n) because we heapify the array and perform heappop and heappush at each iteration.
+#Space Complexity: O(1)
