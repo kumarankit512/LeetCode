@@ -33,3 +33,5 @@ class Solution:
             k -= 1
         return nums
 
+#Time Complexity: O(n + k log n)
+#Space Complexity: O(1)
