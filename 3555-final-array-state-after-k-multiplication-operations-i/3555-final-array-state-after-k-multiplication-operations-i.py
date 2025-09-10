@@ -29,6 +29,7 @@ class Solution:
             temp = min_val * multiplier
             #Update the value of array 'nums' at the current index with temp
             nums[index] = temp
+            #Replaces the value inside the array with the new one
             heappush(heap, (temp, index))
             k -= 1
         return nums
