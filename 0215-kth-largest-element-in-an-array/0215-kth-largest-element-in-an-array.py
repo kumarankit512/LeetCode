@@ -20,10 +20,10 @@ class Solution:
         3. If the length of the heap is greater than k, we remove the smallest element from the heap
         4. Return the value at index 0 in the heap
         '''
-        
+
         minHeap = []
         for n in nums:
-            heapq.heappush(minHeap, n)
+            heappush(minHeap, n)
             if len(minHeap) > k:
-                heapq.heappop(minHeap)
+                heappop(minHeap)
         return minHeap[0]
