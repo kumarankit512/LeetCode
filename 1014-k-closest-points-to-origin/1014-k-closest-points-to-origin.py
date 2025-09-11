@@ -23,5 +23,7 @@ class Solution:
             res.append([x, y])
             k -= 1
         return res
-        
+
+#Time Complexity: O(n + k log n)
+#Space Complexity: O(n + k)
         
