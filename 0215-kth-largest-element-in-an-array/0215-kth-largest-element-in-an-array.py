@@ -27,3 +27,6 @@ class Solution:
             if len(minHeap) > k:
                 heappop(minHeap)
         return minHeap[0]
+
+#Time Complexity: O(n log k) where each push/pop is O(log k) and you do it for n numbers
+#Space Complexity: O(k) where the heap stores k elements
