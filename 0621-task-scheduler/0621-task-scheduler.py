@@ -28,13 +28,13 @@ class Solution:
         heapify(maxHeap)
 
         time = 0
-        q = deque()
+        q = deque() #Pairs of [-cnt, idleTime]
 
         while maxHeap or q:
             time += 1
-            # if not maxHeap:
-            #     time = q[0][1]
-            if maxHeap:
+            if not maxHeap:
+                time = q[0][1]
+            else:
                 cnt = 1 + heappop(maxHeap)
                 if cnt != 0:
                     q.append([cnt, time + n])
