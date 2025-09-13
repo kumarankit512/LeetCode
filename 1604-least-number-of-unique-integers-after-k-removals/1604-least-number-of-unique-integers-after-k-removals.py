@@ -33,5 +33,4 @@ class Solution:
             return 0
         
         # Subtract and return the number of fully removed elements
-        remaining = len(sorted_list) - sorted_list.index(count)
         return len(sorted_list) - removed
