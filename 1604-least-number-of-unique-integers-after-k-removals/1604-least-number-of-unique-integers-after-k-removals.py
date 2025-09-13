@@ -34,3 +34,6 @@ class Solution:
         
         # Subtract and return the number of fully removed elements
         return len(sorted_list) - removed
+
+#Time Complexity: O(n log n)
+#Space Comlexity: O(n)
