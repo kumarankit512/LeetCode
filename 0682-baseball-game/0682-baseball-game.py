@@ -22,3 +22,6 @@ class Solution:
             else:
                 stack.append(int(op))
         return sum(stack)
+
+#Time Complexity: O(n)
+#Space Complexity: O(n)
