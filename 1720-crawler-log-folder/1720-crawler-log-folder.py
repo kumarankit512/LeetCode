@@ -4,9 +4,9 @@ class Solution:
         Procedure:
         - Start at depth 0 (main folder).
         - Iterate through each log in the list:
-            - If the log is "../" → decrease depth by 1 (but depth cannot go below 0).
-            - If the log is "./" → do nothing.
-            - If the log is "x/" → increase depth by 1 (move into subfolder).
+            - If the log is "../" → decrease depth by 1
+            - If the log is "./" → do nothing
+            - If the log is "x/" → increase depth by 1
         - After processing all logs, the depth value represents how far you are from the main folder.
         - At the end Return depth
         '''
@@ -19,3 +19,6 @@ class Solution:
             elif log != "./":
                 stack.append(log)
         return len(stack)
+
+#Time Complexity: O(n)
+#Space Complexity: O(n)
