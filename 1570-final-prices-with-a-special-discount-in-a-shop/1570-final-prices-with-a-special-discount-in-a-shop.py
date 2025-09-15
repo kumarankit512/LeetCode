@@ -21,3 +21,6 @@ class Solution:
                     result[i] -= prices[j]
                     break
         return result
+
+#Time Complexity: O(n^2)
+#Space Complexity: O(n)
