@@ -37,3 +37,6 @@ class Solution:
             stack.append(i)  # push current index to stack
 
         return prices
+
+#Time Complexity: O(n)
+#Space Complexity: O(n)
