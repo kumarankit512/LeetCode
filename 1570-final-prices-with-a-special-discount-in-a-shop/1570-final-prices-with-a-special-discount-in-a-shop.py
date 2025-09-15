@@ -12,15 +12,28 @@ class Solution:
         '''
 
         #Brute Force Approach:
-        n = len(prices)
-        result = prices[:]
+        # n = len(prices)
+        # result = prices[:]
         
-        for i in range(n):
-            for j in range(i + 1, n):
-                if prices[j] <= prices[i]:
-                    result[i] -= prices[j]
-                    break
-        return result
+        # for i in range(n):
+        #     for j in range(i + 1, n):
+        #         if prices[j] <= prices[i]:
+        #             result[i] -= prices[j]
+        #             break
+        # return result
 
 #Time Complexity: O(n^2)
 #Space Complexity: O(n)
+
+        #Optimized Solution using a Stack:
+        stack = []
+        n = len(prices)
+
+        for i in range(n):
+            # while stack has items and current price <= price at top index
+            while stack and prices[i] <= prices[stack[-1]]:
+                index = stack.pop()
+                prices[index] -= prices[i]  # apply discount
+            stack.append(i)  # push current index to stack
+
+        return prices
