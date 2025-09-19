@@ -10,11 +10,21 @@ class Solution:
 #Time Complexity: O (n^2) 
 #Space Complexity: O(1)
 
-        nums.sort()
-        for i in range(1, len(nums)):
-            if nums[i] == nums[i-1]:
-                return True
-        return False
+        # nums.sort()
+        # for i in range(1, len(nums)):
+        #     if nums[i] == nums[i-1]:
+        #         return True
+        # return False
 
 #Time Complexity: O(n log n) -> because of sorting
 #Space Complexity: O(1)
+
+        nSet = set()
+        for n in nums:
+            if n in nSet:
+                return True
+            nSet.add(n)
+        return False
+        
+#Time Complexity: O(n)
+#Space Complexity: O(n)
