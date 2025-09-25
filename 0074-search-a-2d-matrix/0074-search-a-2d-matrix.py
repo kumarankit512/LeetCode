@@ -1,6 +1,6 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        
+
         ROWS = len(matrix)
         COLS = len(matrix[0])
         
@@ -26,3 +26,6 @@ class Solution:
             else:
                 right = mid - 1
         return False
+
+#Time Complexity: O(log ROWS + log COLS)
+#Space Complexity: O(1)
