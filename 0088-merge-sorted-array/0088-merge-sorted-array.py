@@ -5,14 +5,11 @@ class Solution:
         """
 
         # Initialize three pointers:
-        # i points to the last element in the initial portion of nums1.
-        # j points to the last element in nums2.
-        # k points to the last position of nums1, where the merged element will be placed.
         i = m - 1
         j = n - 1
         k = m + n - 1
 
-        # Iterate until all elements of nums2 are placed in nums1.
+        # Iterate until all elements of nums2 are placed in nums1
         while j >= 0:
             # If nums1's current element is greater than nums2's current element,
             # place nums1's element at position k and move pointer i to the left.
@@ -25,3 +22,6 @@ class Solution:
                 j -= 1
             # Move pointer k to the left, as we have placed an element in nums1[k].
             k -= 1
+
+#Time Complexity: O(m + n)
+#Space Complexity: O(1)
