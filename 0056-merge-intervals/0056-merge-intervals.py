@@ -14,3 +14,6 @@ class Solution:
                 prevMergeEnd = max(end, prevMergeEnd)
                 merged[-1][1] = prevMergeEnd
         return merged
+
+#Time Complexity: O(n log n)
+#Space Complexity: O(1)
