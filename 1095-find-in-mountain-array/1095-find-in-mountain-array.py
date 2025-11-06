@@ -67,3 +67,7 @@ class Solution:
 
         #Search in decreasing side
         return binary_search_decreasing(peak + 1, n - 1)
+
+#Optimized Solution -> Binary Search
+#Time Complexity: O(log n)
+#Space Complexity: O(1)
