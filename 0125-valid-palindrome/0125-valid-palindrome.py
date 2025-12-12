@@ -2,6 +2,33 @@ class Solution:
     def isPalindrome(self, s: str) -> bool:
 
         '''
+        Brute Force Solution:
+        Procedure:
+        1) Build a new string with only alphanumeric characters in lowercase
+        2) Reverse the cleaned string manually
+        3) Compare the cleaned string with its reversed version
+        '''
+
+        # cleaned = ""
+
+        # for c in s:
+        #     if c.isalnum():
+        #         cleaned += c.lower()
+        
+        # reversed_cleaned = ""
+        # for i in range(len(cleaned)-1, -1, -1):
+        #     reversed_cleaned += cleaned[i]
+        
+        # if cleaned == reversed_cleaned:
+        #     return True
+        # else:
+        #     return False
+
+        #Time Complexity: O(n)
+        #Space Complexity: O(n)
+
+        '''
+        Two Pointer Solution:
         Procedure:
         1) Use two pointers
             - One pointer at the start -> left = 0
@@ -30,5 +57,5 @@ class Solution:
             r -= 1
         return True
 
-#Time Complexity: O(n)
-#Space Complexity: O(1)
+        #Time Complexity: O(n)
+        #Space Complexity: O(1)
