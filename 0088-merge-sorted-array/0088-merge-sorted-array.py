@@ -4,24 +4,32 @@ class Solution:
         Do not return anything, modify nums1 in-place instead.
         """
 
-        # Initialize three pointers:
+        '''
+        Three Pointer Solution:
+        Procedure:
+        1) Initialize the starting position for each pointer
+        2) Compare elements from the end
+            -> While both i >= 0 and j >= 0
+                -> If nums1[i] > nums2[j] -> place nums1[i] at nums1[k]
+                -> Else -> place nums2[j] at nums1[k]
+                -> Move the pointer that had the larger element
+                -> Move k back
+        3) If nums2 still has leftover elements
+            -> Copy them into nums1
+        '''
+
         i = m - 1
         j = n - 1
         k = m + n - 1
 
-        # Iterate until all elements of nums2 are placed in nums1
         while j >= 0:
-            # If nums1's current element is greater than nums2's current element,
-            # place nums1's element at position k and move pointer i to the left.
             if i >= 0 and nums1[i] > nums2[j]:
                 nums1[k] = nums1[i]
                 i -= 1
-            # Otherwise, place nums2's element at position k and move pointer j to the left.    
             else:
                 nums1[k] = nums2[j]
                 j -= 1
-            # Move pointer k to the left, as we have placed an element in nums1[k].
             k -= 1
 
-#Time Complexity: O(m + n)
-#Space Complexity: O(1)
+            #Time Complexity: O(m + n)
+            #Space Complexity: O(1)
