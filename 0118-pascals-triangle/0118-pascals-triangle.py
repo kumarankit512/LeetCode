@@ -1,22 +1,31 @@
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
+        
+        '''
+        Procedure:
+        1) Initialize the result list
+            -> Create an empty list triangle to store all rows
+        2) Build rows one by one
+            -> For each row i from 0 to numRows - 1:
+                -> Create a list of size i + 1 filled with 1s for each position j inside the row (excluding first and last)
+        3) Append the row
+            -> Add the constructed row to triangle
+        4) Return the result
+        '''
 
-        if numRows < 1:
-            return []
+        triangle = []
 
-        res = []
         for i in range(numRows):
-            row = []
-            num = i
-            for j in range(i + 1):
-                if j == i or j == 0:
-                    row.append(1)
-                else:
-                    num = res[i - 1][j - 1] + res[i - 1][j]
-                    row.append(num)
-            res.append(row)
+            #Start each row with 1s
+            row = [1] * (i + 1)
+
+            #Fill the inner elements
+            for j in range(1, i):
+                row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j]
+
+            triangle.append(row)
+
+        return triangle
         
-        return res
-        
-        #Time Complexity: O(n^2)
-        #Space Complexity: O(n^2)
+        #Time Complexity: O(numRows^2)
+        #Space Complexity: O(numRows^2)
